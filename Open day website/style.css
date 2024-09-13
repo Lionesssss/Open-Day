@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    }
+
+#head{
+   
+    margin: 0;
+    padding: 0;
+    height: 50px;
+    color: #06492b;
+    background-color:#0d7d5f;
+    text-align: center;
+    
+}
+
+#banner {
+    position: relative;
+    width: 100%;
+    height: 25vh; 
+}
+
+
+#banner-image {
+    width: 100%;
+    height: 100%; 
+    object-fit:cover; 
+}
+.centered-text {
+    position: absolute;
+    top: 50%;
+    right: 40%;
+    left:40%;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center; 
+}
+
+.department{
+        font-weight: bold;
+        position: relative;
+        margin-top: 20px;
+        margin-bottom: 50px;
+        height:5px;
+
+}
+.department input,h2{
+    
+    border-radius: 10px;
+    right: 20px;
+    display: inline;
+    
+}
+.department input{
+    position: absolute;
+    right: 20%;
+    top:5px;
+    height:30px;
+    border-width: 5px;
+    border-color: #06492b;
+}
+.department h2{
+    position: absolute;
+    left: 40%;
+    top:5px;
+}
+#alldepartments {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.depts {
+    width: 250px;
+    background-color: #1d1e1d; 
+    color: #ffffff; 
+    font-weight: bold;
+    text-align: center;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+}
+
+.depts img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.pagination {
+    margin-top:55px;
+    text-align: center;
+}
+.pagination p{
+font-size: 20px;
+margin-top: 20px;
+}
+.pagination a {
+    color: #0d7d5f;
+    padding: 8px 16px;
+    text-decoration: none;
+    border: 1px solid #06492b;
+    margin: 0 5px;
+    border-radius: 4px;
+    border-width: 2px;
+}
+
+.pagination a:hover{
+    background-color:#2de893;
+   
+}
+.page-link.active{
+    background-color: #06492b;
+}
+
+.mapbut{
+    position: relative;
+}
+.mapbut button{
+    width: 300px;
+    height:60px;
+    position: absolute;
+    top: 10px;
+    left: 40%;
+    background-color:#06492b;
+    color: #0d7d5f;
+    font-size: large;
+    font-weight: bold;
+    border-radius: 10px;
+}

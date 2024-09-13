@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"> 
+    <title>Open Day</title>
+    <link rel="StyleSheet" href="style.css">
+    
+</head>
+<body>
+    <div id="head">
+        <h1>Open Day</h1>
+    </div>
+    <div id="banner">
+        <img id="banner-image" src="https://picsum.photos/id/1/951/39" alt="banner">
+        <p class="centered-text">"Welcome to Open Day"</p>
+    </div>
+    <div id="container">
+        <div class="department">
+            <h2>Departments</h2>
+            <input type="text" id="search-dept" placeholder="Search here.." onkeyup=search()>
+        </div>
+        <div id="alldepartments">
+        </div>
+    </div>
+    <div class="pagination" id="pagination"> 
+        <a href="#" id="prev">Prev</a> 
+        <a href="#" class="page-link" data-page="1">1</a> 
+        <a href="#" class="page-link" data-page="2">2</a> 
+        <a href="#" class="page-link" data-page="3">3</a> 
+        <a href="#" class="page-link" data-page="4">4</a> 
+        <a href="#" class="page-link" data-page="5">5</a> 
+        <a href="#" class="page-link" data-page="6">6</a> 
+        <a href="#" class="page-link" data-page="7">7</a> 
+        <a href="#" class="page-link" data-page="8">8</a> 
+        <a href="#" class="page-link" data-page="9">9</a> 
+        <a href="#" class="page-link" data-page="10">10</a> 
+        <a href="#" id="next">Next</a> 
+        <p id="page-numbers"> </p>
+    </div>
+    <div style="text-align: center; margin-top: 20px;">
+        <button id="Map" style="padding: 10px 20px; font-size: 18px;">
+            Go To Map 
+        </button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
