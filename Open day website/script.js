@@ -47,7 +47,7 @@ if (!dataContainer || !prevButton || !nextButton || !pageNumbers) {
 
 
 const cards = 
-    Array.from(dataContainer.getElementsByClassName('depts')); 
+    Array.from(dataContainer.getElementsByClassName('depts')) .filter(card => card.style.display !== 'none');  
 
 
 const totalPages = Math.ceil(cards.length / cardsPerPage); 
